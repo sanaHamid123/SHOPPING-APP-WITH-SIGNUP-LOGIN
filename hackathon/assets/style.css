@@ -1,0 +1,134 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+body{
+    background-color: aliceblue;
+}
+.outlet{
+    font-family: Verdana, sans-serif;
+    color: thistle;
+    background-color: rgb(104, 41, 52);
+    text-align: center;
+
+}
+.d-block{
+    margin-left: 100px;
+}
+.maincarddiv{
+    display: flex;
+    margin-left: 80px;
+    padding-left: 50px;
+    background-color: bisque;
+}
+.cosmetic{
+    display: flex;
+    margin-left: 60px;
+}
+.Foodproduct{
+    display: flex;
+    margin-left: 60px;
+}
+.wardrobes{
+    display: flex;
+    margin-left: 60px;
+}
+.food{
+    text-align: center;
+    color:rgb(243, 186, 206);
+    background-color: black;
+    margin: 40px;
+}
+.cosmetics{
+    text-align: center;
+    color:rgb(243, 186, 206);
+    background-color: black;
+    margin: 40px;
+}
+.wardrobe{
+    text-align: center;
+    color:rgb(243, 186, 206);
+    background-color: black;
+    margin: 40px;
+}
+.navbar {
+    color: black;
+    background-color:rgb(243, 186, 206)!important;
+    font-weight: bold;
+    
+    
+}
+
+footer{
+	
+	bottom: 0;
+	background: black;
+	height: auto;
+	width: 100vw;
+	padding: 40px 0 0 0;
+}
+/*content*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+}
+.footer p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+    width: 100vw;
+    padding: 20px 20px 50px 20px;
+}
+.footer-copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
